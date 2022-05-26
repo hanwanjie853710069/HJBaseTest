@@ -1,0 +1,22 @@
+{
+  "name": "HJBaseTest",
+  "version": "0.1.0",
+  "summary": "A short description of HJBaseTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hanwanjie853710069/HJBaseTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hanwanjie853710069": "hanwanjie@jeejio.com"
+  },
+  "source": {
+    "git": "https://github.com/hanwanjie853710069/HJBaseTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HJBaseTest/Classes/**/*"
+}

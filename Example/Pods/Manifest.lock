@@ -1,0 +1,16 @@
+PODS:
+  - HJBaseTest (0.1.0)
+
+DEPENDENCIES:
+  - HJBaseTest (from `../`)
+
+EXTERNAL SOURCES:
+  HJBaseTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJBaseTest: 4ebc7a6ed97aef6f1e994c1ae6a393170690659c
+
+PODFILE CHECKSUM: c848f80b4cf1132c1647c3b5ac619fa927a9f588
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module HJBaseTest {
+  umbrella header "HJBaseTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
