@@ -16,7 +16,6 @@
 		C144EDA350CEE5910A6BF024CA27FB3E /* Pods-HJBaseTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD2BA5CCB91792B1540AD43615E41B /* Pods-HJBaseTest_Example-dummy.m */; };
 		CD2EB200DFB095EFD186141CC906BFF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E8A05F37329077C8BFC0FF76AD2C8A74 /* HJBaseTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8601BB70A16AB5C237DC9CEFCDA8F649 /* HJBaseTest-dummy.m */; };
-		F7A91708587648E3C0552BDCD54BAF86 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208249D11494A57F92D7BAD444CFC6C5 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 		0FCD2BA5CCB91792B1540AD43615E41B /* Pods-HJBaseTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJBaseTest_Example-dummy.m"; sourceTree = "<group>"; };
 		14827ABDBE6B2B4AFBB1200B8FF38744 /* Pods-HJBaseTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBaseTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		14B77D5730A3AA81DF3E57FB3CEF1AF0 /* Pods-HJBaseTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBaseTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		208249D11494A57F92D7BAD444CFC6C5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HJBaseTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		34067D48BE044EEA6EC1F4B2600FE986 /* HJBaseTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBaseTest-prefix.pch"; sourceTree = "<group>"; };
 		36F970BF3962BD16BB7FBB5CA7C043D4 /* HJBaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJBaseTest.debug.xcconfig; sourceTree = "<group>"; };
 		452BC0ABAB8F1A9741F0CA921FC7DF06 /* Pods-HJBaseTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJBaseTest_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -52,12 +50,12 @@
 		61896DAABA93F6A732806DF68A9AC66D /* HJBaseTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HJBaseTest; path = HJBaseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D901528E5F90F8F065E1BC355A8494D /* Pods-HJBaseTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJBaseTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		6E25DEC1EE455415CEA99BCA93FF30F3 /* HJBaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJBaseTest.release.xcconfig; sourceTree = "<group>"; };
-		71E676AE36D411C6E4F5F8504ACBE139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		71E676AE36D411C6E4F5F8504ACBE139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8601BB70A16AB5C237DC9CEFCDA8F649 /* HJBaseTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJBaseTest-dummy.m"; sourceTree = "<group>"; };
 		880E0E3469BF6D04EC03A29C62230950 /* Pods-HJBaseTest_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HJBaseTest_Tests"; path = Pods_HJBaseTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94F4DCA38650BA8B2F27104927250662 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F4DCA38650BA8B2F27104927250662 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB35A0BFF00A12C798C116A6D13C4D6 /* HJBaseTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJBaseTest.modulemap; sourceTree = "<group>"; };
 		A5706E0BAEA2F37EB0703BF40E5C67EF /* Pods-HJBaseTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJBaseTest_Example-Info.plist"; sourceTree = "<group>"; };
 		B4DEE43728B539F67A120BBC7B9FA805 /* HJBaseTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJBaseTest-umbrella.h"; sourceTree = "<group>"; };
@@ -68,7 +66,7 @@
 		E1EB898554F3ECC75B612423261EB133 /* Pods-HJBaseTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJBaseTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E54C5C04B50C84F11C11C8A390F3E556 /* Pods-HJBaseTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJBaseTest_Example.modulemap"; sourceTree = "<group>"; };
 		F1D1CEAC69C95C11BD6B18A1672D4AC8 /* Pods-HJBaseTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJBaseTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC11D318E0A63C274B31EFEDC8AAC720 /* HJBaseTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HJBaseTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC11D318E0A63C274B31EFEDC8AAC720 /* HJBaseTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HJBaseTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FD10A26F11476815C7575194A3D4E8BA /* HJBaseTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HJBaseTest-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +118,6 @@
 		35B1490A253170F1DBF0E30AD3A600C3 /* HJBaseTest */ = {
 			isa = PBXGroup;
 			children = (
-				208249D11494A57F92D7BAD444CFC6C5 /* ReplaceMe.swift */,
 				E46513E14E861579D4D39C9085FCAD31 /* Pod */,
 				46AA94AD31145FDC7137F55EE78338DE /* Support Files */,
 			);
@@ -368,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A05F37329077C8BFC0FF76AD2C8A74 /* HJBaseTest-dummy.m in Sources */,
-				F7A91708587648E3C0552BDCD54BAF86 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +714,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
